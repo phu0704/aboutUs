@@ -1,0 +1,34 @@
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  background-color: $color-white;
+  max-width:1680px ;
+  padding: 0 56px;
+  font-family: 'Circular Std';
+  font-style: normal;
+  box-sizing: border-box;
+
+}
+.btn-primary{
+  background-color: $color-primary;
+  color: $color-white;
+  border: 0;
+  border-radius: 4px;
+}
+.decorate{
+  background-color: $color-primary;
+  opacity: 0.4;
+  border-radius: 4px;
+}
+@media (max-width: $viewport-m) {
+  .container{
+    padding: 0;
+    width: 100vw;
+  }
+}

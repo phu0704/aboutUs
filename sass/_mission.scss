@@ -1,0 +1,126 @@
+.mission{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 130px;
+  &__bg{
+    backdrop-filter: brightness(0%);
+  }
+  &__box44{
+    position: absolute;
+    top: 417px;
+    left: 335px;
+    width: 44px;
+    height: 44px;
+  }
+  &__box70{
+    position: absolute;
+    top: 142px;
+    left: 453px;
+    width: 70px;
+    height: 70px;
+
+  }
+  &__centre{
+    position: absolute;
+    top: 223px;
+    left: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-white;
+    &--title{
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 61px;
+    }
+    &--content{
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 32px;
+      width: 845px;
+      text-align: center;
+    }
+  }
+  &__box29{
+    position: absolute;
+    top: 198px;
+    right: 416px;
+    width: 29px;
+    height: 29px;
+
+  }
+  &__box80{
+    position: absolute;
+    top: 417px;
+    right: 299px;
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: $viewport-m) {
+  .mission{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    &__bg{
+      //backdrop-filter: brightness(0%);
+      width: 100vw;
+    }
+    &__box44{
+      //position: absolute;
+      //top: 417px;
+      //left: 335px;
+      //width: 44px;
+      //height: 44px;
+      display: none;
+    }
+    &__box70{
+      //position: absolute;
+      //top: 142px;
+      //left: 453px;
+      //width: 70px;
+      //height: 70px
+      display: none;
+    }
+    &__centre{
+      position: absolute;
+      top: 10px;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: $color-white;
+      &--title{
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 30px;
+      }
+      &--content{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        width: auto;
+        text-align: center;
+      }
+    }
+    &__box29{
+      //position: absolute;
+      //top: 198px;
+      //right: 416px;
+      //width: 29px;
+      //height: 29px;
+      display: none;
+
+    }
+    &__box80{
+      //position: absolute;
+      //top: 417px;
+      //right: 299px;
+      //width: 80px;
+      //height: 80px;
+      display: none;
+    }
+  }
+}
