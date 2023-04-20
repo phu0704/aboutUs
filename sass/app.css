@@ -33,7 +33,7 @@ body {
   border-radius: 4px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .container {
     padding: 0;
     width: 100vw;
@@ -139,7 +139,7 @@ body {
   height: 56px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .header {
     height: 313px;
     height: auto;
@@ -221,7 +221,7 @@ body {
   justify-content: space-between;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .collective {
     display: flex;
     justify-content: center;
@@ -275,7 +275,7 @@ body {
   line-height: 22px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .leader {
     margin-top: 20px;
     width: 100vw;
@@ -337,7 +337,7 @@ body {
   margin: 0;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .member {
     margin-top: 20px;
   }
@@ -410,7 +410,7 @@ body {
   height: 80px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .mission {
     display: flex;
     justify-content: center;
@@ -508,7 +508,7 @@ body {
   padding-bottom: 6px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .values {
     padding: 0;
   }
@@ -619,7 +619,7 @@ body {
   left: 10px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .footer {
     margin: 0;
     margin-top: 20px;
