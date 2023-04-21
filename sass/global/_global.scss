@@ -4,6 +4,9 @@ body {
   padding: 0;
   background-color: black;
 }
+.wrapper{
+  position: relative;
+}
 .container {
   position: relative;
   margin: 0 auto;
@@ -13,7 +16,6 @@ body {
   font-family: 'Circular Std';
   font-style: normal;
   box-sizing: border-box;
-
 }
 .btn-primary{
   background-color: $color-primary;
@@ -31,4 +33,5 @@ body {
     padding: 0;
     width: 100vw;
   }
+
 }

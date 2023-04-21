@@ -118,29 +118,39 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 40px;
+        gap: 10px;
         .menu {
-          //display: flex;
-          //align-items: center;
-          //justify-content: space-between;
-          //gap: 40px;
-          //list-style: none;
-          //&__item {
-          //  &--link {
-          //    text-decoration: none;
-          //    font-weight: 500;
-          //    font-size: 15px;
-          //    line-height: 19px;
-          //    color: $color-gray6;
-          //  }
-          //  &--link:hover {
-          //    font-weight: 500;
-          //    font-size: 15px;
-          //    line-height: 19px;
-          //    color: $color-gray9;
-          //  }
-          //}
-          display: none;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 40px;
+          list-style: none;
+          background-image: url('../img/header/btn-nav1.png') ;
+          background-size: cover;
+          width: 2px;
+          height: 40px;
+          margin-right: 30px;
+          gap: 0;
+          //position: absolute;
+          //top: 0;
+          //left: 0;
+          &__item {
+            &--link {
+              //text-decoration: none;
+              //font-weight: 500;
+              //font-size: 15px;
+              //line-height: 19px;
+              //color: $color-gray6;
+              display: none;
+            }
+            &--link:hover {
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 19px;
+              color: $color-gray9;
+            }
+          }
+          //display: none;
         }
         .contact {
           //width: 124px;
@@ -155,6 +165,9 @@
           font-size: 15px;
           line-height: 19px;
           color: $color-gray5;
+          &__vn,&__separator{
+            display: none;
+          }
           &__eng {
             color: $color-gray9;
           }
