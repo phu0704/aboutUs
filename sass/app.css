@@ -699,26 +699,26 @@ body {
     display: none;
   }
 }
+.sidebar {
+  width: 0;
+  height: 0;
+  background-color: #00dbf5;
+}
+.sidebar .sidebar__left {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  transition: all 0.3s linear;
+}
+.sidebar .sidebar__left .menu {
+  margin: 0;
+}
+.sidebar .sidebar__right {
+  width: 0;
+  height: 0;
+}
+
 @media (max-width: 768px) {
-  .sidebar {
-    width: 0;
-    height: 0;
-    background-color: #00dbf5;
-  }
-  .sidebar .sidebar__left {
-    width: 0;
-    height: 0;
-    visibility: hidden;
-    transition: all 0.3s linear;
-  }
-  .sidebar .sidebar__left .menu {
-    margin: 0;
-  }
-  .sidebar .sidebar__right {
-    display: none;
-    width: 0;
-    height: 0;
-  }
   .sidebar-show {
     width: 100vw;
     height: 0;
